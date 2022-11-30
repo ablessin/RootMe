@@ -1,0 +1,18 @@
+Another time, we can check in source tab the ch4.html
+Into script tag we can see pass : "pass = '%63%70%61%73%62%69%65%6e%64%75%72%70%61%73%73%77%6f%72%64';"
+
+We can see this condition : 
+              
+              "if(h == unescape(pass)) {
+                  alert('Password accepté, vous pouvez valider le challenge avec ce mot de passe.\nYou an validate the challenge using this pass.');
+              } else {
+                  alert('Mauvais mot de passe / wrong password');
+              }"
+             
+Thats how we know which password we have to use
+
+We can use the console browser and use the function unescape with the pass in order to see it.
+
+If you don't know how to use console or what is it, you can use this website : https://www.urldecoder.org/
+
+AND.. WE HAVE THE FLAG
