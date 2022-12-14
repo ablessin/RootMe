@@ -1,0 +1,14 @@
+Another time, we can check in source tab the ch12.html
+
+Into script tag we can see : 
+  var pass = unescape("unescape%28%22String.fromCharCode%2528104%252C68%252C117%252C102%252C106%252C100%252C107%252C105%252C49%252C53%252C54%2529%22%29");
+
+We can use the console browser and use the function unescape with the pass in order to see it.
+
+After doing it, we can see another string to unescape, doing it again
+
+At this point, we can use the String.fromCharCode function still in console or use website in order to decrypt it 
+
+I know this sandbox : http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/jsref/tryit.asp-filename=tryjsref_fromcharcode.html
+
+AND.. WE HAVE THE FLAG
